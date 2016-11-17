@@ -25,5 +25,14 @@ namespace project1
             c = a + b;
             Tp1_textBox3.Text = c.ToString();
         }
+
+        private void Tp2_button1_Click(object sender, EventArgs e)
+        {
+            int d, f, g;
+            d = Convert.ToInt32(Tp1_textBox1.Text);
+            f = Convert.ToInt32(Tp1_textBox2.Text);
+            g = d - f;
+            Tp1_textBox3.Text = f.ToString();
+        }
     }
 }
