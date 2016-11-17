@@ -205,9 +205,9 @@
             this.Tp3_label1.AutoSize = true;
             this.Tp3_label1.Location = new System.Drawing.Point(221, 31);
             this.Tp3_label1.Name = "Tp3_label1";
-            this.Tp3_label1.Size = new System.Drawing.Size(108, 13);
+            this.Tp3_label1.Size = new System.Drawing.Size(124, 13);
             this.Tp3_label1.TabIndex = 1;
-            this.Tp3_label1.Text = "Умножение 3 чисел";
+            this.Tp3_label1.Text = "Умножение трёх чисел";
             // 
             // Tp3_textBox1
             // 

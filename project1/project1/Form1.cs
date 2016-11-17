@@ -40,9 +40,9 @@ namespace project1
             int a, b, c, d;
             a = Convert.ToInt32(Tp3_textBox1.Text);
             b = Convert.ToInt32(Tp3_textBox2.Text);
-            c = Convert.ToInt32(Tp3_textBox2.Text);
+            c = Convert.ToInt32(Tp3_textBox3.Text);
             d = a * b * c;
-            Tp3_textBox3.Text = d.ToString();
+            Tp3_textBox4.Text = d.ToString();
         }
     }
 }
