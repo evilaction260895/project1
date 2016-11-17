@@ -6,3 +6,4 @@ C:\Users\Сергей\Desktop\project\project1\project1\obj\Debug\project1.Prope
 C:\Users\Сергей\Desktop\project\project1\project1\obj\Debug\project1.csproj.GenerateResource.Cache
 C:\Users\Сергей\Desktop\project\project1\project1\obj\Debug\project1.exe
 C:\Users\Сергей\Desktop\project\project1\project1\obj\Debug\project1.pdb
+C:\Users\Сергей\Desktop\project\project1\project1\obj\Debug\project1.Form1.resources
