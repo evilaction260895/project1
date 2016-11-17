@@ -176,6 +176,7 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.BackColor = System.Drawing.Color.LightBlue;
             this.tabPage3.Controls.Add(this.Tp3_textBox4);
             this.tabPage3.Controls.Add(this.Tp3_textBox3);
             this.tabPage3.Controls.Add(this.Tp3_textBox2);
@@ -188,7 +189,6 @@
             this.tabPage3.Size = new System.Drawing.Size(573, 399);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
-            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // Tp3_button1
             // 
