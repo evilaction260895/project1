@@ -36,11 +36,11 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.Tp2_textBox1 = new System.Windows.Forms.TextBox();
-            this.Tp2_textBox2 = new System.Windows.Forms.TextBox();
-            this.Tp2_textBox3 = new System.Windows.Forms.TextBox();
-            this.Tp2_label1 = new System.Windows.Forms.Label();
             this.Tp2_button1 = new System.Windows.Forms.Button();
+            this.Tp2_label1 = new System.Windows.Forms.Label();
+            this.Tp2_textBox3 = new System.Windows.Forms.TextBox();
+            this.Tp2_textBox2 = new System.Windows.Forms.TextBox();
+            this.Tp2_textBox1 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -125,19 +125,24 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Вычитание";
             // 
-            // Tp2_textBox1
+            // Tp2_button1
             // 
-            this.Tp2_textBox1.Location = new System.Drawing.Point(205, 72);
-            this.Tp2_textBox1.Name = "Tp2_textBox1";
-            this.Tp2_textBox1.Size = new System.Drawing.Size(181, 20);
-            this.Tp2_textBox1.TabIndex = 0;
+            this.Tp2_button1.Location = new System.Drawing.Point(245, 228);
+            this.Tp2_button1.Name = "Tp2_button1";
+            this.Tp2_button1.Size = new System.Drawing.Size(99, 31);
+            this.Tp2_button1.TabIndex = 4;
+            this.Tp2_button1.Text = "Вычислить";
+            this.Tp2_button1.UseVisualStyleBackColor = true;
+            this.Tp2_button1.Click += new System.EventHandler(this.Tp2_button1_Click);
             // 
-            // Tp2_textBox2
+            // Tp2_label1
             // 
-            this.Tp2_textBox2.Location = new System.Drawing.Point(205, 135);
-            this.Tp2_textBox2.Name = "Tp2_textBox2";
-            this.Tp2_textBox2.Size = new System.Drawing.Size(181, 20);
-            this.Tp2_textBox2.TabIndex = 1;
+            this.Tp2_label1.AutoSize = true;
+            this.Tp2_label1.Location = new System.Drawing.Point(258, 28);
+            this.Tp2_label1.Name = "Tp2_label1";
+            this.Tp2_label1.Size = new System.Drawing.Size(62, 13);
+            this.Tp2_label1.TabIndex = 3;
+            this.Tp2_label1.Text = "Вычитание";
             // 
             // Tp2_textBox3
             // 
@@ -146,24 +151,19 @@
             this.Tp2_textBox3.Size = new System.Drawing.Size(181, 20);
             this.Tp2_textBox3.TabIndex = 2;
             // 
-            // Tp2_label1
+            // Tp2_textBox2
             // 
-            this.Tp2_label1.AutoSize = true;
-            this.Tp2_label1.Location = new System.Drawing.Point(256, 23);
-            this.Tp2_label1.Name = "Tp2_label1";
-            this.Tp2_label1.Size = new System.Drawing.Size(62, 13);
-            this.Tp2_label1.TabIndex = 3;
-            this.Tp2_label1.Text = "Вычитание";
+            this.Tp2_textBox2.Location = new System.Drawing.Point(205, 135);
+            this.Tp2_textBox2.Name = "Tp2_textBox2";
+            this.Tp2_textBox2.Size = new System.Drawing.Size(181, 20);
+            this.Tp2_textBox2.TabIndex = 1;
             // 
-            // Tp2_button1
+            // Tp2_textBox1
             // 
-            this.Tp2_button1.Location = new System.Drawing.Point(243, 233);
-            this.Tp2_button1.Name = "Tp2_button1";
-            this.Tp2_button1.Size = new System.Drawing.Size(99, 31);
-            this.Tp2_button1.TabIndex = 4;
-            this.Tp2_button1.Text = "Вычислить";
-            this.Tp2_button1.UseVisualStyleBackColor = true;
-            this.Tp2_button1.Click += new System.EventHandler(this.Tp2_button1_Click);
+            this.Tp2_textBox1.Location = new System.Drawing.Point(205, 72);
+            this.Tp2_textBox1.Name = "Tp2_textBox1";
+            this.Tp2_textBox1.Size = new System.Drawing.Size(181, 20);
+            this.Tp2_textBox1.TabIndex = 0;
             // 
             // Form1
             // 
