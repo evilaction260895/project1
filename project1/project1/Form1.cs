@@ -34,5 +34,15 @@ namespace project1
             g = d - f;
             Tp2_textBox3.Text = g.ToString();
         }
+
+        private void Tp3_button1_Click(object sender, EventArgs e)
+        {
+            int a, b, c, d;
+            a = Convert.ToInt32(Tp3_textBox1.Text);
+            b = Convert.ToInt32(Tp3_textBox2.Text);
+            c = Convert.ToInt32(Tp3_textBox2.Text);
+            d = a * b * c;
+            Tp3_textBox3.Text = d.ToString();
+        }
     }
 }

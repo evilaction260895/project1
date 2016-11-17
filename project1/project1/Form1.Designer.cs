@@ -42,12 +42,12 @@
             this.Tp2_textBox2 = new System.Windows.Forms.TextBox();
             this.Tp2_textBox1 = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.Tp3_button1 = new System.Windows.Forms.Button();
+            this.Tp3_label1 = new System.Windows.Forms.Label();
+            this.Tp3_textBox1 = new System.Windows.Forms.TextBox();
+            this.Tp3_textBox2 = new System.Windows.Forms.TextBox();
+            this.Tp3_textBox3 = new System.Windows.Forms.TextBox();
+            this.Tp3_textBox4 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -176,65 +176,66 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.textBox4);
-            this.tabPage3.Controls.Add(this.textBox3);
-            this.tabPage3.Controls.Add(this.textBox2);
-            this.tabPage3.Controls.Add(this.textBox1);
-            this.tabPage3.Controls.Add(this.label1);
-            this.tabPage3.Controls.Add(this.button1);
+            this.tabPage3.BackColor = System.Drawing.Color.LightBlue;
+            this.tabPage3.Controls.Add(this.Tp3_textBox4);
+            this.tabPage3.Controls.Add(this.Tp3_textBox3);
+            this.tabPage3.Controls.Add(this.Tp3_textBox2);
+            this.tabPage3.Controls.Add(this.Tp3_textBox1);
+            this.tabPage3.Controls.Add(this.Tp3_label1);
+            this.tabPage3.Controls.Add(this.Tp3_button1);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(573, 399);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
-            this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // Tp3_button1
             // 
-            this.button1.Location = new System.Drawing.Point(215, 241);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 44);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Tp3_button1.Location = new System.Drawing.Point(215, 241);
+            this.Tp3_button1.Name = "Tp3_button1";
+            this.Tp3_button1.Size = new System.Drawing.Size(119, 44);
+            this.Tp3_button1.TabIndex = 0;
+            this.Tp3_button1.Text = "Вычислить";
+            this.Tp3_button1.UseVisualStyleBackColor = true;
+            this.Tp3_button1.Click += new System.EventHandler(this.Tp3_button1_Click);
             // 
-            // label1
+            // Tp3_label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(264, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
+            this.Tp3_label1.AutoSize = true;
+            this.Tp3_label1.Location = new System.Drawing.Point(221, 31);
+            this.Tp3_label1.Name = "Tp3_label1";
+            this.Tp3_label1.Size = new System.Drawing.Size(108, 13);
+            this.Tp3_label1.TabIndex = 1;
+            this.Tp3_label1.Text = "Умножение 3 чисел";
             // 
-            // textBox1
+            // Tp3_textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(224, 73);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 2;
+            this.Tp3_textBox1.Location = new System.Drawing.Point(224, 73);
+            this.Tp3_textBox1.Name = "Tp3_textBox1";
+            this.Tp3_textBox1.Size = new System.Drawing.Size(100, 20);
+            this.Tp3_textBox1.TabIndex = 2;
             // 
-            // textBox2
+            // Tp3_textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(224, 135);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 3;
+            this.Tp3_textBox2.Location = new System.Drawing.Point(224, 131);
+            this.Tp3_textBox2.Name = "Tp3_textBox2";
+            this.Tp3_textBox2.Size = new System.Drawing.Size(100, 20);
+            this.Tp3_textBox2.TabIndex = 3;
             // 
-            // textBox3
+            // Tp3_textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(224, 186);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 4;
+            this.Tp3_textBox3.Location = new System.Drawing.Point(224, 186);
+            this.Tp3_textBox3.Name = "Tp3_textBox3";
+            this.Tp3_textBox3.Size = new System.Drawing.Size(100, 20);
+            this.Tp3_textBox3.TabIndex = 4;
             // 
-            // textBox4
+            // Tp3_textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(224, 331);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 5;
+            this.Tp3_textBox4.Location = new System.Drawing.Point(224, 331);
+            this.Tp3_textBox4.Name = "Tp3_textBox4";
+            this.Tp3_textBox4.Size = new System.Drawing.Size(100, 20);
+            this.Tp3_textBox4.TabIndex = 5;
             // 
             // Form1
             // 
@@ -271,12 +272,12 @@
         private System.Windows.Forms.TextBox Tp2_textBox2;
         private System.Windows.Forms.TextBox Tp2_textBox1;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox Tp3_textBox4;
+        private System.Windows.Forms.TextBox Tp3_textBox3;
+        private System.Windows.Forms.TextBox Tp3_textBox2;
+        private System.Windows.Forms.TextBox Tp3_textBox1;
+        private System.Windows.Forms.Label Tp3_label1;
+        private System.Windows.Forms.Button Tp3_button1;
     }
 }
 
