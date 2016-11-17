@@ -76,7 +76,7 @@
             this.Tp1_button1.Name = "Tp1_button1";
             this.Tp1_button1.Size = new System.Drawing.Size(87, 30);
             this.Tp1_button1.TabIndex = 4;
-            this.Tp1_button1.Text = "Tp1_button1";
+            this.Tp1_button1.Text = "Вычислить";
             this.Tp1_button1.UseVisualStyleBackColor = true;
             this.Tp1_button1.Click += new System.EventHandler(this.Tp1_button1_Click);
             // 
@@ -102,7 +102,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(573, 399);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.Text = "Сложение";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
