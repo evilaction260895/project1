@@ -161,7 +161,7 @@
             this.Tp2_button1.Name = "Tp2_button1";
             this.Tp2_button1.Size = new System.Drawing.Size(99, 31);
             this.Tp2_button1.TabIndex = 4;
-            this.Tp2_button1.Text = "button1";
+            this.Tp2_button1.Text = "Вычислить";
             this.Tp2_button1.UseVisualStyleBackColor = true;
             this.Tp2_button1.Click += new System.EventHandler(this.Tp2_button1_Click);
             // 

@@ -29,10 +29,10 @@ namespace project1
         private void Tp2_button1_Click(object sender, EventArgs e)
         {
             int d, f, g;
-            d = Convert.ToInt32(Tp1_textBox1.Text);
-            f = Convert.ToInt32(Tp1_textBox2.Text);
+            d = Convert.ToInt32(Tp2_textBox1.Text);
+            f = Convert.ToInt32(Tp2_textBox2.Text);
             g = d - f;
-            Tp1_textBox3.Text = f.ToString();
+            Tp2_textBox3.Text = g.ToString();
         }
     }
 }
