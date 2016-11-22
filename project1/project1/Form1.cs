@@ -44,5 +44,10 @@ namespace project1
             d = a * b * c;
             Tp3_textBox4.Text = d.ToString();
         }
+
+        private void button1_23_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Вывод будет =" + "  " + Tp1_textBox3.Text);
+        }
     }
 }
