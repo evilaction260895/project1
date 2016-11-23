@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.Tp1_label1 = new System.Windows.Forms.Label();
             this.Tp1_textBox1 = new System.Windows.Forms.TextBox();
             this.Tp1_textBox2 = new System.Windows.Forms.TextBox();
@@ -35,6 +36,7 @@
             this.Tp1_button1 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.Tp2_button1 = new System.Windows.Forms.Button();
             this.Tp2_label1 = new System.Windows.Forms.Label();
@@ -48,7 +50,7 @@
             this.Tp3_textBox1 = new System.Windows.Forms.TextBox();
             this.Tp3_label1 = new System.Windows.Forms.Label();
             this.Tp3_button1 = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -120,6 +122,16 @@
             this.tabPage1.Size = new System.Drawing.Size(573, 399);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Сложение";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(415, 113);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 5;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // tabPage2
             // 
@@ -239,15 +251,11 @@
             this.Tp3_button1.UseVisualStyleBackColor = true;
             this.Tp3_button1.Click += new System.EventHandler(this.Tp3_button1_Click);
             // 
-            // checkBox1
+            // imageList1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(415, 113);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 5;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
             // 
             // Form1
             // 
@@ -291,6 +299,7 @@
         private System.Windows.Forms.Label Tp3_label1;
         private System.Windows.Forms.Button Tp3_button1;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }
 
