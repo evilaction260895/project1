@@ -7,3 +7,6 @@ C:\Users\Сергей\Desktop\project\project1\project1\obj\Debug\project1.cspro
 C:\Users\Сергей\Desktop\project\project1\project1\obj\Debug\project1.exe
 C:\Users\Сергей\Desktop\project\project1\project1\obj\Debug\project1.pdb
 C:\Users\Сергей\Desktop\project\project1\project1\obj\Debug\project1.Form1.resources
+C:\Users\Admin\Desktop\project1\project1\project1\bin\Debug\project1.exe.config
+C:\Users\Admin\Desktop\project1\project1\project1\obj\Debug\project1.exe
+C:\Users\Admin\Desktop\project1\project1\project1\obj\Debug\project1.pdb
