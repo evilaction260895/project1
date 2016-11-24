@@ -16,3 +16,6 @@ C:\Users\viso\Desktop\с другого ака\project1\project1\project1\obj\De
 C:\Users\viso\Desktop\с другого ака\project1\project1\project1\obj\Debug\project1.Form1.resources
 C:\Users\viso\Desktop\с другого ака\project1\project1\project1\obj\Debug\project1.Properties.Resources.resources
 C:\Users\viso\Desktop\с другого ака\project1\project1\project1\obj\Debug\project1.csproj.GenerateResource.Cache
+C:\Users\student410\Desktop\project1\project1\project1\bin\Debug\project1.exe.config
+C:\Users\student410\Desktop\project1\project1\project1\obj\Debug\project1.exe
+C:\Users\student410\Desktop\project1\project1\project1\obj\Debug\project1.pdb
