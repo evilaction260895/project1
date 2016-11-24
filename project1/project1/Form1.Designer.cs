@@ -35,6 +35,7 @@
             this.Tp1_button1 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.Tp1_button3 = new System.Windows.Forms.Button();
             this.button1_23 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.Tp2_button1 = new System.Windows.Forms.Button();
@@ -49,7 +50,7 @@
             this.Tp3_textBox1 = new System.Windows.Forms.TextBox();
             this.Tp3_label1 = new System.Windows.Forms.Label();
             this.Tp3_button1 = new System.Windows.Forms.Button();
-            this.Tp1_button3 = new System.Windows.Forms.Button();
+            this.Tp1_button4 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -109,6 +110,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.Tp1_button4);
             this.tabPage1.Controls.Add(this.Tp1_button3);
             this.tabPage1.Controls.Add(this.button1_23);
             this.tabPage1.Controls.Add(this.Tp1_textBox1);
@@ -122,6 +124,15 @@
             this.tabPage1.Size = new System.Drawing.Size(573, 399);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Сложение";
+            // 
+            // Tp1_button3
+            // 
+            this.Tp1_button3.Location = new System.Drawing.Point(72, 242);
+            this.Tp1_button3.Name = "Tp1_button3";
+            this.Tp1_button3.Size = new System.Drawing.Size(75, 23);
+            this.Tp1_button3.TabIndex = 6;
+            this.Tp1_button3.Text = "button1";
+            this.Tp1_button3.UseVisualStyleBackColor = true;
             // 
             // button1_23
             // 
@@ -251,14 +262,14 @@
             this.Tp3_button1.UseVisualStyleBackColor = true;
             this.Tp3_button1.Click += new System.EventHandler(this.Tp3_button1_Click);
             // 
-            // Tp1_button3
+            // Tp1_button4
             // 
-            this.Tp1_button3.Location = new System.Drawing.Point(72, 242);
-            this.Tp1_button3.Name = "Tp1_button3";
-            this.Tp1_button3.Size = new System.Drawing.Size(75, 23);
-            this.Tp1_button3.TabIndex = 6;
-            this.Tp1_button3.Text = "button1";
-            this.Tp1_button3.UseVisualStyleBackColor = true;
+            this.Tp1_button4.Location = new System.Drawing.Point(72, 289);
+            this.Tp1_button4.Name = "Tp1_button4";
+            this.Tp1_button4.Size = new System.Drawing.Size(75, 23);
+            this.Tp1_button4.TabIndex = 7;
+            this.Tp1_button4.Text = "button1";
+            this.Tp1_button4.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -303,6 +314,7 @@
         private System.Windows.Forms.Button Tp3_button1;
         private System.Windows.Forms.Button button1_23;
         private System.Windows.Forms.Button Tp1_button3;
+        private System.Windows.Forms.Button Tp1_button4;
     }
 }
 
