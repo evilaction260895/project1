@@ -259,6 +259,7 @@
             this.Tp1_button3.TabIndex = 6;
             this.Tp1_button3.Text = "button1";
             this.Tp1_button3.UseVisualStyleBackColor = true;
+            this.Tp1_button3.Click += new System.EventHandler(this.Tp1_button3_Click);
             // 
             // Form1
             // 
