@@ -49,5 +49,10 @@ namespace project1
         {
             MessageBox.Show("Вывод будет =" + "  " + Tp1_textBox3.Text);
         }
+
+        private void Tp1_button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Вывод будет =" + "  " + Tp1_textBox3.Text);
+        }
     }
 }
