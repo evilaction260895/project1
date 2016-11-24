@@ -35,6 +35,7 @@
             this.Tp1_button1 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button1_23 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.Tp2_button1 = new System.Windows.Forms.Button();
             this.Tp2_label1 = new System.Windows.Forms.Label();
@@ -48,7 +49,7 @@
             this.Tp3_textBox1 = new System.Windows.Forms.TextBox();
             this.Tp3_label1 = new System.Windows.Forms.Label();
             this.Tp3_button1 = new System.Windows.Forms.Button();
-            this.button1_23 = new System.Windows.Forms.Button();
+            this.Tp1_button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -108,6 +109,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.Tp1_button3);
             this.tabPage1.Controls.Add(this.button1_23);
             this.tabPage1.Controls.Add(this.Tp1_textBox1);
             this.tabPage1.Controls.Add(this.Tp1_label1);
@@ -120,6 +122,16 @@
             this.tabPage1.Size = new System.Drawing.Size(573, 399);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Сложение";
+            // 
+            // button1_23
+            // 
+            this.button1_23.Location = new System.Drawing.Point(383, 315);
+            this.button1_23.Name = "button1_23";
+            this.button1_23.Size = new System.Drawing.Size(105, 31);
+            this.button1_23.TabIndex = 5;
+            this.button1_23.Text = "Сообщением";
+            this.button1_23.UseVisualStyleBackColor = true;
+            this.button1_23.Click += new System.EventHandler(this.button1_23_Click);
             // 
             // tabPage2
             // 
@@ -205,12 +217,6 @@
             this.Tp3_textBox3.Name = "Tp3_textBox3";
             this.Tp3_textBox3.Size = new System.Drawing.Size(100, 20);
             this.Tp3_textBox3.TabIndex = 4;
-            this.Tp3_label1.AutoSize = true;
-            this.Tp3_label1.Location = new System.Drawing.Point(221, 31);
-            this.Tp3_label1.Name = "Tp3_label1";
-            this.Tp3_label1.Size = new System.Drawing.Size(124, 13);
-            this.Tp3_label1.TabIndex = 1;
-            this.Tp3_label1.Text = "Умножение трёх чисел";
             // 
             // Tp3_textBox2
             // 
@@ -245,15 +251,14 @@
             this.Tp3_button1.UseVisualStyleBackColor = true;
             this.Tp3_button1.Click += new System.EventHandler(this.Tp3_button1_Click);
             // 
-            // button1_23
+            // Tp1_button3
             // 
-            this.button1_23.Location = new System.Drawing.Point(383, 315);
-            this.button1_23.Name = "button1_23";
-            this.button1_23.Size = new System.Drawing.Size(105, 31);
-            this.button1_23.TabIndex = 5;
-            this.button1_23.Text = "Сообщением";
-            this.button1_23.UseVisualStyleBackColor = true;
-            this.button1_23.Click += new System.EventHandler(this.button1_23_Click);
+            this.Tp1_button3.Location = new System.Drawing.Point(72, 242);
+            this.Tp1_button3.Name = "Tp1_button3";
+            this.Tp1_button3.Size = new System.Drawing.Size(75, 23);
+            this.Tp1_button3.TabIndex = 6;
+            this.Tp1_button3.Text = "button1";
+            this.Tp1_button3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -297,6 +302,7 @@
         private System.Windows.Forms.Label Tp3_label1;
         private System.Windows.Forms.Button Tp3_button1;
         private System.Windows.Forms.Button button1_23;
+        private System.Windows.Forms.Button Tp1_button3;
     }
 }
 
